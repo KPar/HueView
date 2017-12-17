@@ -32,9 +32,9 @@ For layout views, instantiate HueView for the specific view and call initialize(
 ```
 #### initialize(double saturation, double light, int speed)
 
-Saturation: A double value from .0-.1
+Saturation: A double value from .0 up to .1
 
-Light: A double value from .0-.1
+Light: A double value from .0 up to .1
 
 Speed: An int value starting from 0. Measured in milliseconds, the lowest being the fastest.
 
