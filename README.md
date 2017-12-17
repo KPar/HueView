@@ -36,7 +36,7 @@ Saturation: A double value from .0 up to .1
 
 Light: A double value from .0 up to .1
 
-Speed: An int value starting from 0. Measured in milliseconds, the lowest being the fastest.
+Speed: An int value starting from 0. Measured in milliseconds, the lowest value being the fastest.
 
 ## License
 ```
