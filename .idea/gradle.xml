@@ -8,8 +8,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/HueView" />
             <option value="$PROJECT_DIR$/HueviewSample" />
-            <option value="$PROJECT_DIR$/hueview" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

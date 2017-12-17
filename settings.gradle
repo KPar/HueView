@@ -1,1 +1,1 @@
-include ':HueviewSample', ':hueview'
+include ':HueviewSample', ':HueView'
