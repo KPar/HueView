@@ -1,8 +1,15 @@
 # HueView
 An Android library that cycles through the visible light spectrum to recursively change the color of affected views.
 
-Details and guide to be added soon...
+Details and guide to be added within the week...
 
+# Getting Started
+### Dependency
+```
+dependencies {
+    compile 'com.valiantdots:HueView:1.0.0'
+}
+```
 
 
 ## License
