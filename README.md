@@ -20,7 +20,7 @@ The current supported views are: LinearLayout, FrameLayout,RelativeLayout, TextV
         android:layout_height="100dp">
 </com.valiantdots.hueview.HueView_LinearLayout>
 ```
-By default HueView will have the following values: 
+By default HueView will use the following values: 
 
 *Saturation: .85 Light: .7 Speed: 10*
 ### Customizing HueView
