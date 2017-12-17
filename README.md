@@ -12,7 +12,8 @@ dependencies {
 ```
 ## Usage
 The current supported views are: LinearLayout, FrameLayout,RelativeLayout, TextView, and the Toolbar's icons
-### Linear Layout
+
+### Linear Layout within xml file
 ```xml
 <com.valiantdots.hueview.HueView_LinearLayout
         android:id="@+id/myLinearLayout"
@@ -29,6 +30,13 @@ For layout views, instantiate HueView for the specific view and call initialize(
  HueView_LinearLayout myLinearLayout = findViewById(R.id.myLinearLayout);
  myLinearLayout.initialize(.67,.8,2);
 ```
+#### initialize(double saturation, double light, int speed)
+
+Saturation: A double value from .0-.1
+
+Light: A double value from .0-.1
+
+Speed: An int value starting from 0. Measured in milliseconds, the lowest being the fastest.
 
 ## License
 ```
