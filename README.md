@@ -54,11 +54,11 @@ By default, HueView is applied to the TextView's background, automatically chang
 ```
 #### initialize(double saturation, double light, int speed)
 
-Saturation: A double value from .0 up to .1
+**Saturation:** A double value from .0 up to .1
 
-Light: A double value from .0 up to .1
+**Light:** A double value from .0 up to .1
 
-Speed: An int value starting from 0. Measured in milliseconds, the lowest value being the fastest.
+**Speed:** An int value starting from 0. Measured in milliseconds, the lowest value being the fastest.
 
 ### TextView: Text Affected
 ```java
@@ -69,7 +69,7 @@ Speed: An int value starting from 0. Measured in milliseconds, the lowest value 
 
 The Saturation, Light, and Speed parameters take the same arguments as the basic initialize() method.
 
-BackgroundColor: Color in HEX format
+**BackgroundColor:** Color in HEX format
 
 ### TextView: Background Affected, Static Text Color
 If you do not desire the text color to automatically change based on the background's color, with initializeStaticText() you can assign a static text color.
@@ -81,7 +81,7 @@ If you do not desire the text color to automatically change based on the backgro
 
 The Saturation, Light, and Speed parameters take the same arguments as the basic initialize() method.
 
-TextColor: Color in HEX format
+**TextColor:** Color in HEX format
 
 ## Toolbar Icons
 
