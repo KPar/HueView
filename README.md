@@ -67,11 +67,7 @@ Speed: An int value starting from 0. Measured in milliseconds, the lowest value 
 ```
 #### initialize(double saturation, double light, int speed, String backgroundColor)
 
-Saturation: A double value from .0 up to .1
-
-Light: A double value from .0 up to .1
-
-Speed: An int value starting from 0. Measured in milliseconds, the lowest value being the fastest.
+The Saturation, Light, and Speed parameters take the same arguments as the basic initialize() method.
 
 BackgroundColor: Color in HEX format
 
@@ -83,11 +79,7 @@ If you do not desire the text color to automatically change based on the backgro
 ```
 #### initializeStaticText(double saturation, double light, int speed, String textColor)
 
-Saturation: A double value from .0 up to .1
-
-Light: A double value from .0 up to .1
-
-Speed: An int value starting from 0. Measured in milliseconds, the lowest value being the fastest.
+The Saturation, Light, and Speed parameters take the same arguments as the basic initialize() method.
 
 TextColor: Color in HEX format
 
