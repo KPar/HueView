@@ -89,7 +89,7 @@ With an instance of HueView, one can apply HueView to the Toolbar in three diffe
 
 #### toolbarOverflow(double saturation, double light, int speed, View toolbar)
 
-Applies HueView only to the Overflow/Back button.
+*Applies HueView only to the Overflow/Back button.*
 
 Saturation: A double value from .0 up to .1
 
@@ -101,7 +101,7 @@ Toolbar: Toolbar view.
 
 #### toolbarSingleIcon(double saturation, double light, int speed, View toolbar, int iconPosition)
 
-Specify the toolbar icon to apply HueView to.
+*Specify the toolbar icon to apply HueView to.*
 
 The Saturation, Light, Speed, and Toolbar parameters take the same arguments as prior method.
 
@@ -109,7 +109,7 @@ iconPosition: Position of the desired icon. Icons start at 0 after the overflow/
 
 #### toolbarAllIcons(double saturation, double light, int speed, View toolbar)
 
-Apply HueView to all the toolbar icons.
+*Apply HueView to all the toolbar icons.*
 
 The Saturation, Light, Speed, and Toolbar parameters take the same arguments as prior method.
 
