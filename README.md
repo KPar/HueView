@@ -83,6 +83,41 @@ The Saturation, Light, and Speed parameters take the same arguments as the basic
 
 TextColor: Color in HEX format
 
+## Toolbar Icons
+
+With an instance of HueView, one can apply HueView to the Toolbar in three different ways by calling these methods:
+
+#### toolbarOverflow(double saturation, double light, int speed, View toolbar)
+
+Applies HueView only to the Overflow/Back button.
+
+Saturation: A double value from .0 up to .1
+
+Light: A double value from .0 up to .1
+
+Speed: An int value starting from 0. Measured in milliseconds, the lowest value being the fastest.
+
+Toolbar: Toolbar view.
+
+#### toolbarSingleIcon(double saturation, double light, int speed, View toolbar, int iconPosition)
+
+Specify the toolbar icon to apply HueView to.
+
+The Saturation, Light, Speed, and Toolbar parameters take the same arguments as prior method.
+
+iconPosition: Position of the desired icon. Icons start at 0 after the overflow/back button.
+
+#### toolbarAllIcons(double saturation, double light, int speed, View toolbar)
+
+Apply HueView to all the toolbar icons.
+
+The Saturation, Light, Speed, and Toolbar parameters take the same arguments as prior method.
+
+```java
+ HueView toolbarHueView = new HueView();
+ toolbarHueView.toolbarAllIcons(.70,.65,2,toolbar);
+```
+
 ## License
 ```
 Copyright 2017 Kenny Paredes, Valiant Dots
