@@ -38,16 +38,20 @@ public class MainActivity extends AppCompatActivity
         HueView m = new HueView();
         m.toolbarAllIcons(.70,.65,2,toolbar);
 
+        HueView_FrameLayout myFrameLayout = (HueView_FrameLayout) findViewById(R.id.myHue1);
+        myFrameLayout.initialize(.40,.7,8);
 
+        HueView_TextView text1 = (HueView_TextView) findViewById(R.id.myHueText);
+        text1.initialize(.65,.6,5);
 
-        HueView_TextView text = (HueView_TextView) findViewById(R.id.myHueText);
-        text.initialize(.25,.7,5);
-        text.stop("#ff6700");
-        text.initializeStaticText(.25,.7,5,"#ffff56");
-        text.stop("#ff6700");
+        HueView_TextView text2 = (HueView_TextView) findViewById(R.id.myHueText2);
+        text2.initializeStaticText(.25,.7,5,"#5b4dff");
 
-        HueView_FrameLayout layout = (HueView_FrameLayout) findViewById(R.id.myHue);
-        layout.initialize(.05,.7,1);
+        HueView_TextView text3 = (HueView_TextView) findViewById(R.id.myHueText3);
+        text3.initialize(.85,.7,5,"#ffffff");
+
+        HueView_TextView text4 = (HueView_TextView) findViewById(R.id.myHueText4);
+        text4.initialize(.85,.7,5,"#76a1ea");
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
