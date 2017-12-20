@@ -91,13 +91,13 @@ With an instance of HueView, one can apply HueView to the Toolbar in three diffe
 
 *Applies HueView only to the Overflow/Back button.*
 
-Saturation: A double value from .0 up to .1
+**Saturation:** A double value from .0 up to .1
 
-Light: A double value from .0 up to .1
+**Light:** A double value from .0 up to .1
 
-Speed: An int value starting from 0. Measured in milliseconds, the lowest value being the fastest.
+**Speed:** An int value starting from 0. Measured in milliseconds, the lowest value being the fastest.
 
-Toolbar: Toolbar view.
+**Toolbar:** Toolbar view.
 
 #### toolbarSingleIcon(double saturation, double light, int speed, View toolbar, int iconPosition)
 
@@ -105,7 +105,7 @@ Toolbar: Toolbar view.
 
 The Saturation, Light, Speed, and Toolbar parameters take the same arguments as prior method.
 
-iconPosition: Position of the desired icon. Icons start at 0 after the overflow/back button.
+**iconPosition:** Position of the desired icon. Icons start at 0 after the overflow/back button.
 
 #### toolbarAllIcons(double saturation, double light, int speed, View toolbar)
 
