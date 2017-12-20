@@ -38,11 +38,11 @@ For layout views, instantiate HueView for the specific view and call initialize(
 ```
 #### initialize(double saturation, double light, int speed)
 
-Saturation: A double value from .0 up to .1
+**Saturation:** A double value from .0 up to .1
 
-Light: A double value from .0 up to .1
+**Light:** A double value from .0 up to .1
 
-Speed: An int value starting from 0. Measured in milliseconds, the lowest value being the fastest.
+**Speed:** An int value starting from 0. Measured in milliseconds, the lowest value being the fastest.
 
 ## TextView
 By default, HueView is applied to the TextView's background, automatically changing the color of the text black to white. However, you're able to apply HueView on a TextView three different ways:
