@@ -117,6 +117,20 @@ The Saturation, Light, Speed, and Toolbar parameters take the same arguments as 
  HueView toolbarHueView = new HueView();
  toolbarHueView.toolbarAllIcons(.70,.65,2,toolbar);
 ```
+# Stopping HueView
+The effects of HueView can be stopped for layout views and TextView by calling the stop() method:
+
+```java
+ myLinearLayout.stop("#ffbbcc);
+```
+#### stop(String HexColor)
+**HexColor:** Color in HEX format to display once HueView stops.
+
+To stop the Toolbar's icons simply call toolbarStop(), which takes the same arguments as stop():
+
+```java
+ toolbarHueView.toolbarStop("#ffbbcc");
+```
 
 ## License
 ```
