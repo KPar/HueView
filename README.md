@@ -133,11 +133,11 @@ To stop the Toolbar's icons simply call toolbarStop(), which takes the same argu
 ```
 # Possible Use Cases
 
-Situation: A message has been sent in a social app, or a new feature is available under the drawer, all accessed by pressing a toolbar icon. How do we notify users in a more intuitive way?
+## Use Case #1
+**Situation:** A message has been sent in a social app, or a new feature is available under the drawer, all accessed by pressing a toolbar icon. How do we notify users in a more intuitive way?
 
-Solution: By applying HueView to the specific toolbar icon, user will be engaged in pressing the icon to obtain the new information.
-Once the icon is pressed, the icon will return to it's original color.  ( toolbarStop() )
-
+**Solution:** By applying HueView to the specific toolbar icon, user will be engaged in pressing the icon to obtain the new information. Once the icon is pressed, the icon will return to it's original color *( toolbarStop() )*.
+  
 ## License
 ```
 Copyright 2017 Kenny Paredes, Valiant Dots
