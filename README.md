@@ -1,5 +1,5 @@
 # HueView
-An Android library that cycles through the visible light spectrum to recursively change the color of affected views.
+An Android library that cycles through the visible light spectrum to recursively change the color of affected views. Main goal of this library is to further expand creativity among developers in Android app design.
 
 <img src="https://github.com/KPar/HueView/raw/master/GIF-171219_225414.gif?raw=true" alt="GIF of HueView Sample" width="40%" height="40%"/>
 
