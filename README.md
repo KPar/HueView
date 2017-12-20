@@ -14,6 +14,7 @@ dependencies {
 ```
 ## Usage
 The current supported views are: LinearLayout, FrameLayout, RelativeLayout, TextView, and the Toolbar's icons.
+
 To use HueView, declare the desired view in xml with the library's name like the following:
 
 ```xml
@@ -77,8 +78,8 @@ BackgroundColor: Color in HEX format
 ### TextView: Background Affected, Static Text Color
 If you do not desire the text color to automatically change based on the background's color, with initializeStaticText() you can assign a static text color.
 ```java
- HueView_TextView text2 = (HueView_TextView) findViewById(R.id.myHueText2);
- text2.initializeStaticText(.25,.7,5,"#5b4dff");
+ HueView_TextView text3 = (HueView_TextView) findViewById(R.id.myHueText3);
+ text3.initializeStaticText(.25,.7,5,"#5b4dff");
 ```
 #### initializeStaticText(double saturation, double light, int speed, String textColor)
 
