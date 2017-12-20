@@ -87,9 +87,9 @@ The Saturation, Light, and Speed parameters take the same arguments as the basic
 
 With an instance of HueView, one can apply HueView to the Toolbar in three different ways by calling these methods:
 
-#### toolbarOverflow(double saturation, double light, int speed, View toolbar)
+### Affect the Overflow/Back button
 
-*Applies HueView only to the Overflow/Back button.*
+#### toolbarOverflow(double saturation, double light, int speed, View toolbar)
 
 **Saturation:** A double value from .0 up to .1
 
@@ -99,17 +99,17 @@ With an instance of HueView, one can apply HueView to the Toolbar in three diffe
 
 **Toolbar:** Toolbar view.
 
-#### toolbarSingleIcon(double saturation, double light, int speed, View toolbar, int iconPosition)
+### Affect One Icon
 
-*Specify the toolbar icon to apply HueView to.*
+#### toolbarSingleIcon(double saturation, double light, int speed, View toolbar, int iconPosition)
 
 The Saturation, Light, Speed, and Toolbar parameters take the same arguments as prior method.
 
 **iconPosition:** Position of the desired icon. Icons start at 0 after the overflow/back button.
 
-#### toolbarAllIcons(double saturation, double light, int speed, View toolbar)
+### Affect All Icons
 
-*Apply HueView to all the toolbar icons.*
+#### toolbarAllIcons(double saturation, double light, int speed, View toolbar)
 
 The Saturation, Light, Speed, and Toolbar parameters take the same arguments as prior method.
 
