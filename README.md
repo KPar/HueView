@@ -3,6 +3,8 @@ An Android library that cycles through the visible light spectrum to recursively
 
 A more comprehensive guide to be added within the week...
 
+<img src="https://github.com/KPar/HueView/raw/master/GIF-171219_225414.gif?raw=true" alt="GIF of HueView Sample" width="40%" height="40%"/>
+
 # Getting Started
 ### Dependency
 ```
