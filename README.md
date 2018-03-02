@@ -140,7 +140,7 @@ To stop the Toolbar's icons simply call toolbarStop(), which takes the same argu
   
 ## License
 ```
-Copyright 2017 Kenny Paredes, Valiant Dots
+Copyright 2017 Kenny Paredes
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
